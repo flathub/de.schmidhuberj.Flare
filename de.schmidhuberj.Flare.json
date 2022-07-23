@@ -13,7 +13,8 @@
         "--socket=pulseaudio",
         "--device=dri",
         "--share=network",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.freedesktop.secrets",
+        "--talk-name=org.freedesktop.portal.FileChooser"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -30,8 +31,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/46391896/download",
-                    "sha256": "ee5ac4bb943ae7a1c7a42d8a0ac6cff6c6d988b0c903c7ceb1ce01ea35e31b76"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/47141451/download",
+                    "sha256": "f4497a7a2f2d9a984d2f66d8208e1525a17e74876de2fc5bc2044270e279a476"
                 }
             ]
         }
