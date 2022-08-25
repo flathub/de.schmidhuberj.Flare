@@ -4,8 +4,7 @@
     "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Platform.VAAPI.Intel"
+        "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "flare",
     "finish-args": [
