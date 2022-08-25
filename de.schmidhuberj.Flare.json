@@ -4,7 +4,8 @@
     "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.rust-stable"
+        "org.freedesktop.Sdk.Extension.rust-stable",
+        "org.freedesktop.Platform.VAAPI.Intel"
     ],
     "command": "flare",
     "finish-args": [
@@ -31,8 +32,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/49365654/download",
-                    "sha256": "a3a128fc6a045dc266e0f6537371babe14645f5aa25fd5c416ee049d1ffc0e71"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/50662111/download",
+                    "sha256": "8f8721a6d851f685db6725288c0ee3b2e8deeb69c48bf49b15e3d64847cb17a9"
                 }
             ]
         }
