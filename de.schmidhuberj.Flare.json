@@ -17,6 +17,7 @@
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.portal.FileChooser"
     ],
+
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
@@ -24,6 +25,7 @@
             "RUST_BACKTRACE": "1"
         }
     },
+
     "modules": [
         {
             "name": "flare",
