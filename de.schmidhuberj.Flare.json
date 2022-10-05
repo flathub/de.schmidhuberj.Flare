@@ -1,13 +1,14 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "flare",
     "finish-args": [
+        "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
         "--socket=pulseaudio",
@@ -31,8 +32,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/53460539/download",
-                    "sha256": "30487e41a1aaf25d8806e3ad8f6ccc3d10cd8cc68c909487fc488e7a3448a8fe"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/55071612/download",
+                    "sha256": "61e0f4504067b63e969c5461773d1860190ef6d9f332eb7d3f4efca0be84b3f9"
                 }
             ]
         }
