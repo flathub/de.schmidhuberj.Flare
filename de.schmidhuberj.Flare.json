@@ -6,7 +6,7 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command": "flare",
+    "command": "flare-wrapper.sh",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -34,6 +34,19 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/55506655/download",
                     "sha256": "f2b0f4801caf2ff7bb29b1318e299fb031796d6e684285ff8802898e759fd27c"
+                }
+            ]
+        },
+        {
+            "name": "flare-wrapper",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -D flare-wrapper.sh /app/bin/flare-wrapper.sh"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "flare-wrapper.sh"
                 }
             ]
         }
