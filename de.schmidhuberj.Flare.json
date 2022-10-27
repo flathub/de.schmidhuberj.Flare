@@ -47,6 +47,10 @@
                 {
                     "type": "file",
                     "path": "flare-wrapper.sh"
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo.patch"
                 }
             ]
         }
