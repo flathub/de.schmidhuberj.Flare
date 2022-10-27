@@ -34,6 +34,10 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/57603025/download",
                     "sha256": "12c6cc3afa50e34281b5a0a9b1b461435791020c0ca00c604a74fdae8374aaf1"
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo.patch"
                 }
             ]
         },
@@ -47,10 +51,6 @@
                 {
                     "type": "file",
                     "path": "flare-wrapper.sh"
-                },
-                {
-                    "type": "patch",
-                    "path": "metainfo.patch"
                 }
             ]
         }
