@@ -32,8 +32,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/59852807/download",
-                    "sha256": "322e74ddae5bf27cfa3d7619dc751add80a4037a7636724b95c3fe42b00a1559"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/61816905/download",
+                    "sha256": "0aef1b4b4938c27d2fe0f35b5d7b7942c26b8fbac2ce25e122a0168daf6f2662"
                 }
             ]
         },
