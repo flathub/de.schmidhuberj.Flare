@@ -35,6 +35,10 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/73795151/download",
                     "sha256": "a999a6aed1618dd90a7fbd4d4a25c215bccf30b5fcfb8d717879a15538790ccd"
+                },
+                {
+                    "type": "patch",
+                    "path": "metainfo.patch"
                 }
             ]
         }
