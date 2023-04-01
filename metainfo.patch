@@ -1,0 +1,13 @@
+diff --git a/data/de.schmidhuberj.Flare.metainfo.xml b/data/de.schmidhuberj.Flare.metainfo.xml
+index b2c56ba..4ba2136 100644
+--- a/data/de.schmidhuberj.Flare.metainfo.xml
++++ b/data/de.schmidhuberj.Flare.metainfo.xml
+@@ -53,7 +53,7 @@
+   <releases>
+     <release version="v0.7.1" date="2023-04-01">
+       <description>
+-        <h3>HOTFIX</h3>
++        <p>HOTFIX</p>
+         <ul>
+           <li>Fix outgoing 1-to-1 messages stored incorrectly.</li>
+         </ul>
