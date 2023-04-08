@@ -16,6 +16,7 @@
         "--share=network",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.portal.FileChooser",
+        "--talk-name=org.sigxcpu.Feedback",
         "--system-talk-name=org.freedesktop.login1"
     ],
     "build-options": {
@@ -33,8 +34,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/73795151/download",
-                    "sha256": "a999a6aed1618dd90a7fbd4d4a25c215bccf30b5fcfb8d717879a15538790ccd"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/74478104/download",
+                    "sha256": "1b008575e98cb0ecc27aa618df79dc3704c1af709d6a24337e40c95d59375938"
                 },
                 {
                     "type": "patch",
