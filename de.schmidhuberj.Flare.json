@@ -28,14 +28,25 @@
     },
     "modules": [
         {
+          "name": "blueprint-compiler",
+          "buildsystem": "meson",
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+              "tag": "v0.8.1"
+            }
+          ]
+        },
+        {
             "name": "flare",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/80119080/download",
-                    "sha256": "84b28c9271abe4b679bbfd034ded1e10a7ced48653b5f3aa1bdbe4e625f4bfc2"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/84881723/download",
+                    "sha256": "76528f632d980a7a03be8e5c4add5def4df2dabb57aaeb1d29b80f6c7e17aa1c"
                 }
             ]
         }
