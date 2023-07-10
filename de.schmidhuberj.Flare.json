@@ -33,7 +33,7 @@
           "sources": [
             {
               "type": "git",
-              "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/84881723/download",
+              "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
               "tag": "v0.8.1"
             }
           ]
