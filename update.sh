@@ -8,5 +8,5 @@ link_sha=$(echo $data | jq '.assets.links[] | select(.name | test(".tar.xz.sha25
 
 shasum=$(curl $link_sha | cut -d " " -f 1)
 
-sed -i "s|\"url\": \".*\"|\"url\": \"$link_tar\"|" de.schmidhuberj.Flare.json
+sed -i "s|\"url\": \".*Schmiddiii.*\"|\"url\": \"$link_tar\"|" de.schmidhuberj.Flare.json
 sed -i "s|\"sha256\": \".*\"|\"sha256\": \"$shasum\"|" de.schmidhuberj.Flare.json
