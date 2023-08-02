@@ -34,7 +34,7 @@
             {
               "type": "git",
               "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-              "tag": "v0.8.1"
+              "tag": "v0.10.0"
             }
           ]
         },
@@ -45,8 +45,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/84881723/download",
-                    "sha256": "76528f632d980a7a03be8e5c4add5def4df2dabb57aaeb1d29b80f6c7e17aa1c"
+                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/87493813/download",
+                    "sha256": "b6767dd6a471554a62821c06eb77e0e89935bd65c89908a13e901430a14faabd"
                 }
             ]
         }
