@@ -45,7 +45,7 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/Schmiddiii/flare/-/package_files/87493813/download",
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/87493813/download",
                     "sha256": "b6767dd6a471554a62821c06eb77e0e89935bd65c89908a13e901430a14faabd"
                 }
             ]
