@@ -23,7 +23,8 @@
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
             "CARGO_HOME": "/run/build/flare/cargo",
-            "RUST_BACKTRACE": "1"
+            "RUST_BACKTRACE": "1",
+            "RUSTFLAGS": "-L/app/lib"
         }
     },
     "modules": [
@@ -38,6 +39,20 @@
             }
           ]
         },
+    	{
+            "name" : "libspelling",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Ddocs=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/chergert/libspelling.git",
+                    "commit" : "8a8b31b7af6edc1b92aa7f866e7dd8e48fd6a741"
+                }
+            ]
+        },
         {
             "name": "flare",
             "buildsystem": "meson",
@@ -45,8 +60,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/88346013/download",
-                    "sha256": "0f13684807522a725043693a2bd08a072000ed808d92e28e616db0ff512069b3"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/89290302/download",
+                    "sha256": "64dbe0328432cc5823c415c4bda4eae0e766882aefdab4632ec7f8bff2ef88d3"
                 }
             ]
         }
