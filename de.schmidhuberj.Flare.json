@@ -47,8 +47,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/103356011/download",
-                    "sha256": "a31277ab5597fa933bf983e53c3d5a7638f921971ca0a81d36b9f563b9c2eea2"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/104584563/download",
+                    "sha256": "222df195ffcc9bb67fe911383e8cba95a6f321365160dc3fb414ead15edc71ce"
                 }
             ]
         }
