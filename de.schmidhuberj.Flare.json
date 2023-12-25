@@ -22,7 +22,8 @@
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
             "CARGO_HOME": "/run/build/flare/cargo",
-            "RUST_BACKTRACE": "1"
+            "RUST_BACKTRACE": "1",
+            "RUSTFLAGS": "-L/app/lib"
         }
     },
     "modules": [
@@ -36,9 +37,23 @@
             {
               "type": "git",
               "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-              "tag": "v0.8.1"
+              "tag": "v0.10.0"
             }
           ]
+        },
+        {
+            "name" : "libspelling",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Ddocs=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/chergert/libspelling.git",
+                    "commit" : "8a8b31b7af6edc1b92aa7f866e7dd8e48fd6a741"
+                }
+            ]
         },
         {
             "name": "flare",
@@ -47,8 +62,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/107019970/download",
-                    "sha256": "e556499788eab8f1f99acf65937fa9eb33973c378a1d471854fb57bff779b7b8"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/107143274/download",
+                    "sha256": "c476785f42bd214e69f91b408be0760ec4116330e74265152414327c6f85c921"
                 }
             ]
         }
