@@ -15,7 +15,6 @@
         "--device=dri",
         "--share=network",
         "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.freedesktop.portal.FileChooser",
         "--talk-name=org.sigxcpu.Feedback",
         "--system-talk-name=org.freedesktop.login1"
     ],
