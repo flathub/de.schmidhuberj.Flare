@@ -14,6 +14,7 @@
         "--socket=pulseaudio",
         "--device=dri",
         "--share=network",
+        "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.sigxcpu.Feedback",
         "--system-talk-name=org.freedesktop.login1"
     ],
@@ -40,7 +41,8 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
-                    }
+                    },
+                    "commit": "2a39a16391122af2f3d812e478c1c1398c98b972"
                 }
             ]
         },
@@ -57,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp.git",
-                    "tag": "20240116.0",
-                    "commit": "4a2c63365eff8823a5221db86ef490e828306f9d",
+                    "tag": "20240116.1",
+                    "commit": "2f9e432cce407ce0ae50676696666f33a77d42ac",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -70,10 +72,10 @@
             "name": "protobuf",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                  "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
-                  "-Dprotobuf_ABSL_PROVIDER=package",
-                  "-Dprotobuf_BUILD_SHARED_LIBS=ON",
-                  "-Dprotobuf_BUILD_TESTS=OFF"
+                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "-Dprotobuf_ABSL_PROVIDER=package",
+                "-Dprotobuf_BUILD_SHARED_LIBS=ON",
+                "-Dprotobuf_BUILD_TESTS=OFF"
             ],
             "cleanup": [
                 "/bin/protoc*",
@@ -94,17 +96,17 @@
             ]
         },
         {
-            "name" : "libspelling",
-            "buildsystem" : "meson",
-            "config-opts" : [
+            "name": "libspelling",
+            "buildsystem": "meson",
+            "config-opts": [
                 "-Ddocs=false"
             ],
-            "sources" : [
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/chergert/libspelling.git",
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/chergert/libspelling.git",
                     "tag": "0.2.0",
-                    "commit" : "baefb81b3b236e3bd29c0aa23f79056b2636e311",
+                    "commit": "baefb81b3b236e3bd29c0aa23f79056b2636e311",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
