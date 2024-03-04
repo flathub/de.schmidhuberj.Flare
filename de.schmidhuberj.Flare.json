@@ -105,8 +105,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/libspelling.git",
-                    "tag": "0.2.0",
-                    "commit": "baefb81b3b236e3bd29c0aa23f79056b2636e311",
+                    "tag": "0.2.1",
+                    "commit": "0e9b8b2187ecda4dc1ce48a9bcc9a9976490fda2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
