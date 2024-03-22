@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -37,12 +37,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.10.0",
+                    "tag": "v0.12.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "2a39a16391122af2f3d812e478c1c1398c98b972"
+                    "commit": "66b43c36cf1017c878762007373964a096b3d2a5"
                 }
             ]
         },
@@ -121,8 +121,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/114882663/download",
-                    "sha256": "46b1149a0c22377d458f7c782277abc0971339898a850ce88985f23cdda80205"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/118892210/download",
+                    "sha256": "915670304dd369fa07ddb92ccc696d21a2f39b7b8ac2350ff3505a9464a4cb18"
                 }
             ]
         }
