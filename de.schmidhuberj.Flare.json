@@ -37,12 +37,12 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.12.0",
+                    "tag": "v0.14.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     },
-                    "commit": "66b43c36cf1017c878762007373964a096b3d2a5"
+                    "commit": "8e10fcf8692108b9d4ab78f41086c5d7773ef864"
                 }
             ]
         },
@@ -105,8 +105,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/libspelling.git",
-                    "tag": "0.2.1",
-                    "commit": "0e9b8b2187ecda4dc1ce48a9bcc9a9976490fda2",
+                    "tag": "0.3.0",
+                    "commit": "d0ac17231ed4474b89af860a8632c60dc32de4f1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
