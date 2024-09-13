@@ -121,8 +121,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/139350251/download",
-                    "sha256": "f499f22da91b8436c0a5ea85038256ed99372890d4402719cf3b16830aabb2ea"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/147941339/download",
+                    "sha256": "4a2d207128d91e513a47dc1f822c042e0d2ed12633db25a7070ac42ee81d2548"
                 }
             ]
         }
