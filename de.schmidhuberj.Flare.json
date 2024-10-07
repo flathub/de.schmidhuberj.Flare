@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -121,8 +121,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/150022089/download",
-                    "sha256": "4c37e7d4b5448e3211d394d5950402a15eb21ab2185a17a0145ebcb234c39620"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/151489460/download",
+                    "sha256": "74fd6b6ebdf33cc337e38c38efadb6770e4af2e23cc9e63c921e3169fa2707e6"
                 }
             ]
         }
