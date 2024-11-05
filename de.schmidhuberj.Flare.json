@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -105,8 +105,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/libspelling.git",
-                    "tag": "0.2.1",
-                    "commit": "0e9b8b2187ecda4dc1ce48a9bcc9a9976490fda2",
+                    "tag": "0.4.4",
+                    "commit": "7a3e7cf45d34ac74a0293a2e48b78a93b14cc660",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -121,8 +121,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/139350251/download",
-                    "sha256": "f499f22da91b8436c0a5ea85038256ed99372890d4402719cf3b16830aabb2ea"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/156146405/download",
+                    "sha256": "eab3b194e57504c80e5364c6fb5d1fb6a1d507a2ed06b077d296064694fc1e93"
                 }
             ]
         }
