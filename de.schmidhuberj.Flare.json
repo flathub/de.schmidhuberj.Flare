@@ -59,8 +59,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/abseil/abseil-cpp.git",
-                    "tag": "20240722.0",
-                    "commit": "4447c7562e3bc702ade25105912dce503f0c4010",
+                    "tag": "20240722.1",
+                    "commit": "dd4c89bd657f1e247ce5111a5c89ffe6ccfd0c92",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
