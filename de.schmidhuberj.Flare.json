@@ -121,12 +121,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/177682325/download",
-                    "sha256": "3dfabff5bf219f5335749a8f23c8904b2aeb3072eacc2aec4348d199916547b3"
-                },
-                {
-                    "type": "patch",
-                    "path": "pqcrypto.patch"
+                    "url": "https://gitlab.com/schmiddi-on-mobile/flare/-/package_files/177705820/download",
+                    "sha256": "5f206d3b7acd4b5724156295c26ddbe8830501d6bd2b5fc6c217ac4e6729e72e"
                 }
             ]
         }
