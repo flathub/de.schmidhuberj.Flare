@@ -85,11 +85,11 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v25.2",
-                    "commit": "a9b006bddd52e289029f16aa77b77e8e0033d9ee",
+                    "tag": "v31.1",
+                    "commit": "74211c0dfc2777318ab53c2cd2c317a2ef9012de",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
