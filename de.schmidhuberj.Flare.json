@@ -124,7 +124,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/whisperfish/presage.git",
-                    "commit": "123c1f926e359c21b34d099279ee8a92462ce96d",
+                    "commit": "31a418d0a35ad746590165520b652d6adb7a0384",
                     "dest": "presage"
                 },
                 {
