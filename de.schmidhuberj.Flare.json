@@ -120,6 +120,18 @@
                     "archive-type": "tar-xz",
                     "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.17.1/flare-0.17.1.tar.xz",
                     "sha256": "b04ae7f430369a1fe98dfdf215e682bb829427ed131b69e00f7a8777f260b986"
+                },
+                {
+                    "type": "git",
+                    "url": "https://github.com/whisperfish/presage.git",
+                    "commit": "123c1f926e359c21b34d099279ee8a92462ce96d",
+                    "dest": "presage"
+                },
+                {
+                    "type": "shell",
+                    "commands": [
+                        "cp -r presage/.sqlx vendor/presage-store-sqlite"
+                    ]
                 }
             ]
         }
