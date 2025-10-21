@@ -118,20 +118,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.17.1/flare-0.17.1.tar.xz",
-                    "sha256": "b04ae7f430369a1fe98dfdf215e682bb829427ed131b69e00f7a8777f260b986"
-                },
-                {
-                    "type": "git",
-                    "url": "https://github.com/whisperfish/presage.git",
-                    "commit": "31a418d0a35ad746590165520b652d6adb7a0384",
-                    "dest": "presage"
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "cp -r presage/.sqlx vendor/presage-store-sqlite"
-                    ]
+                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.17.2/flare-0.17.2.tar.xz",
+                    "sha256": "457131d52be919b48cd2e2817dd38deecf240264d781631cb1ffea1752d9ba11"
                 }
             ]
         }
