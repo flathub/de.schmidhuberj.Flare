@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -24,25 +24,6 @@
         }
     },
     "modules": [
-        {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.18.0",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
-                    },
-                    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
-                }
-            ]
-        },
         {
             "name": "abseil",
             "buildsystem": "cmake-ninja",
