@@ -25,28 +25,6 @@
     },
     "modules": [
         {
-            "name": "abseil",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DCMAKE_CXX_STANDARD=17",
-                "-DCMAKE_POSITION_INDEPENDENT_CODE=ON",
-                "-DBUILD_SHARED_LIBS=ON",
-                "-DABSL_PROPAGATE_CXX_STD=ON"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/abseil/abseil-cpp.git",
-                    "tag": "20260107.0",
-                    "commit": "d407ef122a08203648451e0fec77b3f868b71112",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
-                    }
-                }
-            ]
-        },
-        {
             "name": "protobuf",
             "buildsystem": "cmake-ninja",
             "config-opts": [
