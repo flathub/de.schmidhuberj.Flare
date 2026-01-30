@@ -42,8 +42,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v33.4",
-                    "commit": "edaa823d8b36a8656d7b2b9241b7d0bfe50af878",
+                    "tag": "v33.5",
+                    "commit": "b6f9284da830b69be787732ffdaa35049d20a088",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -61,8 +61,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/libspelling.git",
-                    "tag": "0.4.9",
-                    "commit": "e41e11d6ca6f5af987a46caa08036d5f0f629892",
+                    "tag": "0.4.10",
+                    "commit": "1facdde8e1c0fd72bed806f9a9be2fbec83af5f2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
