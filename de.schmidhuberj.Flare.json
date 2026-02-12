@@ -15,6 +15,17 @@
         "--device=dri",
         "--share=network"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/girepository-1.0",
+        "/lib/pkgconfig",
+        "/share/gir-1.0",
+        "/share/pkgconfig",
+        "/share/vala",        
+        "*.la",
+        "*.a"
+    ],    
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
