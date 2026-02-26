@@ -22,10 +22,10 @@
         "/lib/pkgconfig",
         "/share/gir-1.0",
         "/share/pkgconfig",
-        "/share/vala",        
+        "/share/vala",
         "*.la",
         "*.a"
-    ],    
+    ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
@@ -53,8 +53,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v33.5",
-                    "commit": "b6f9284da830b69be787732ffdaa35049d20a088",
+                    "tag": "v34.0",
+                    "commit": "6a6cd88c262ffdb1738167a47d5fcc7a3eb4edac",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
