@@ -88,8 +88,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.18.7/flare-0.18.7.tar.xz",
-                    "sha256": "58c31561f15d14e86e18fe9f42590ab52e228964dead4720b62094f45c322b89"
+                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.18.8/flare-0.18.8.tar.xz",
+                    "sha256": "b6d3169bafb947571da17a87e55eaabcec9dfa916ffd76db0d506e03d49f4fed"
                 }
             ]
         }
