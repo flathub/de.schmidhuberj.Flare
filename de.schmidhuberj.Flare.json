@@ -15,6 +15,17 @@
         "--device=dri",
         "--share=network"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/girepository-1.0",
+        "/lib/pkgconfig",
+        "/share/gir-1.0",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
         "env": {
@@ -42,8 +53,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/protocolbuffers/protobuf.git",
-                    "tag": "v33.2",
-                    "commit": "7ccf2060af4cd13c44a8659d0999be6c7a98fcc1",
+                    "tag": "v35.1",
+                    "commit": "35cd01f9fe9afbeea38cc7b979a3b6bfcde82c03",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -61,8 +72,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/libspelling.git",
-                    "tag": "0.4.9",
-                    "commit": "e41e11d6ca6f5af987a46caa08036d5f0f629892",
+                    "tag": "0.4.10",
+                    "commit": "1facdde8e1c0fd72bed806f9a9be2fbec83af5f2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -77,8 +88,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.18.0-beta.1/flare-0.18.0-beta.1.tar.xz",
-                    "sha256": "f98cd7f8c9cb0962668aab9ed9cc71261d615d88a626eef9d12089b07c53e00a"
+                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.20.6/flare-0.20.6.tar.xz",
+                    "sha256": "b7a5d0dca3e6238d080602a2edfc52c0014ef077d4e615e160d0794338df1ae5"
                 }
             ]
         }
