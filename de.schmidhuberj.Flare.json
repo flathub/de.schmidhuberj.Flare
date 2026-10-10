@@ -1,7 +1,7 @@
 {
     "app-id": "de.schmidhuberj.Flare",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -88,8 +88,8 @@
                 {
                     "type": "archive",
                     "archive-type": "tar-xz",
-                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.22.2/flare-0.22.2.tar.xz",
-                    "sha256": "cf52535b556c2c17f6740c1eea203c6c4b0c00c949c29771e1ea730ce8e8e353"
+                    "url": "https://gitlab.com/api/v4/projects/37464215/packages/generic/flare/0.22.3/flare-0.22.3.tar.xz",
+                    "sha256": "7a3a97a133aa67663236fcd973e81fd55066aab2bb67f8303158e0a6e3c38fb8"
                 }
             ]
         }
